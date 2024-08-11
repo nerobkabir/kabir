@@ -1,4 +1,4 @@
-# kabir
+# Simple calculator
 #include <stdio.h>  <br>
 #include <stdlib.h> <br>
 
@@ -9,21 +9,21 @@ int main() { <br>
 
     while (1) {
         printf("Choose an operator (+, -, *, /). Press 'x' to exit: ");
-        scanf(" %c", &opt); // Add a space before %c to skip any newline characters
+        scanf(" %c", &opt);
 
         if (opt == 'x') {
-            exit(0); // Exit the program
+            exit(0);
         }
 
 
 
-        // Input numbers
+        
         printf("Enter the first number: ");
         scanf("%d", &n1);
         printf("Enter the second number: ");
         scanf("%d", &n2);
 
-        // Perform calculation based on the selected operator
+        
         switch (opt) {
             case '+':
                 res = (float)n1 + n2;

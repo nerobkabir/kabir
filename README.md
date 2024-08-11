@@ -2,10 +2,10 @@
 #include <stdio.h>  <br>
 #include <stdlib.h> <br>
 
-int main() {
-    char opt;
-    int n1, n2;
-    float res;
+int main() { <br>
+    char opt; <br>
+    int n1, n2; <br>
+    float res; <br>
 
     while (1) {
         printf("Choose an operator (+, -, *, /). Press 'x' to exit: ");
